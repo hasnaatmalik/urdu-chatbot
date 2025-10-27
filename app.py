@@ -25,23 +25,33 @@ st.markdown("""
         margin-bottom: 1rem;
     }
     .chat-message {
-        padding: 1rem;
-        border-radius: 10px;
+        padding: 1.2rem;
+        border-radius: 12px;
         margin-bottom: 1rem;
         display: flex;
         flex-direction: column;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
     .user-message {
-        background-color: #e3f2fd;
+        background-color: #0084ff;
         margin-left: 20%;
+        color: white;
     }
     .bot-message {
-        background-color: #f5f5f5;
+        background-color: #e8e8e8;
         margin-right: 20%;
+        color: #1a1a1a;
     }
     .message-label {
         font-weight: bold;
         margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+        opacity: 0.9;
+    }
+    .message-content {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        direction: rtl;
     }
     .stTextInput > div > div > input {
         direction: rtl;
